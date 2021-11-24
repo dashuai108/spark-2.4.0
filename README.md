@@ -1,5 +1,11 @@
 # Apache Spark
 
+
+AExecution (sql/core) - added support for date inference in multiple formats
+for example-  
+val read = sqlContext.read  
+read.option("timestampFormats", "yyyy%MM%dd,yyyy/MM/dd")
+
 Spark is a fast and general cluster computing system for Big Data. It provides
 high-level APIs in Scala, Java, Python, and R, and an optimized engine that
 supports general computation graphs for data analysis. It also supports a
