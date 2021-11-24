@@ -1,0 +1,12 @@
+# Project exclude paths
+/common/kvstore/target/
+/common/network-common/target/
+/common/network-shuffle/target/
+/common/sketch/target/
+/common/tags/target/
+/common/unsafe/target/
+/core/target/
+/launcher/target/
+/sql/catalyst/target/
+/sql/core/target/
+/target/
